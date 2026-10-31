@@ -936,3 +936,18 @@ Football coach · Demo instructor|مدرب كرة قدم · شخصية تجري�
 Community coach · Demo instructor|مدربة مجتمعية · شخصية تجريبية
 Conditioning educator · Demo instructor|مختصة لياقة · شخصية تجريبية
 `.trim().split('\n').map(line=>{const i=line.indexOf('|');return[line.slice(0,i),line.slice(i+1)]})));
+
+Object.assign(arabic,{
+"Your details":"بياناتك",
+"A few details to help your organizer confirm your booking and welcome you on arrival.":"بعض البيانات لمساعدة المنظم على تأكيد حجزك واستقبالك عند الوصول.",
+"Organized by":"تنظيم",
+"Booking contact name":"اسم المسؤول عن الحجز",
+"Your full name":"اسمك الكامل",
+"Mobile number":"رقم الجوال",
+"Use 8–15 digits, including the country code where needed.":"أدخل من ٨ إلى ١٥ رقمًا، مع رمز الدولة عند الحاجة.",
+"Other participants":"المشاركون الآخرون",
+"Your name is used for the first place. Add a name for each additional place.":"يُستخدم اسمك للمكان الأول. أضف اسمًا لكل مكان إضافي.",
+"Participant name":"اسم المشارك",
+"I confirm these details are correct and may be used by the organizer for this booking and check-in.":"أؤكد صحة هذه البيانات وأوافق على استخدامها من المنظم لهذا الحجز وتسجيل الحضور.",
+"Demo only: use sample contact details. Information stays in this browser and is not sent to the organizer.":"عرض تجريبي فقط: استخدم بيانات اتصال افتراضية. تبقى المعلومات في هذا المتصفح ولا تُرسل إلى المنظم."
+});
